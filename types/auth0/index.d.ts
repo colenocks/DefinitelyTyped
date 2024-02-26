@@ -1552,6 +1552,7 @@ export interface UsersLogsQuery {
     per_page?: number;
     page?: number;
     sort?: string;
+    q?: string;
     include_totals?: boolean;
 }
 
